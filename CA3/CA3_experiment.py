@@ -100,6 +100,6 @@ order_sched = {'sup': supply_schedule, 'dem': demand_schedule,
 trial_id = 'CA3'
 #tdump = open('CA3_avg_balance.csv','w')
 
-n_runs(100, trial_id, start_time, end_time, traders_spec, order_sched)
+n_runs(500, trial_id, start_time, end_time, traders_spec, order_sched)
 
                    
